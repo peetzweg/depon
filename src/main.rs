@@ -24,11 +24,6 @@ fn main() {
     }
 
     let last_state = read_state();
-    if last_state == None {
-        println!("No lock file found");
-    } else {
-        println!("Lock file found");
-    }
 
     let current_state: DeponState = args
         .observe
