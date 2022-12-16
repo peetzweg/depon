@@ -20,7 +20,13 @@ Options:
 
 The `./upload.sh ./task.json` part of this invocation will be executed if `depon` detects, that `./task.json` has been modified. If it does not have been modified, `depon` will prevent further execution.
 
+## Install
+
+```sh
+cargo install depon
+```
+
 ## How does it Work?
 
-If `depon` detects a change in given dependencies or the dependencies have been touched, `depon` will exit with an error exitcode, thereby preventing further execution of linked commands with the `&&` shell operator.
+If `depon` detects a change in given dependencies or the dependencies have been touched, `depon` will exit with an error exit code, thereby preventing further execution of linked commands with the `&&` shell operator.
 `Depon` keeps track of the dependencies between calls persistently in a `./depon.lock` file.
