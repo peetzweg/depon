@@ -15,7 +15,7 @@ Options:
 ## Usage
 
 ```sh
-> depon ./tasks.json && ./upload.sh ./tasks.json
+> depon ./images/*.jpg && ./upload_images.sh 
 ```
 
 The `./upload.sh ./task.json` part of this invocation will be executed if `depon` detects, that `./task.json` has been modified. If it does not have been modified, `depon` will prevent further execution.
