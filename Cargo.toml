@@ -6,8 +6,8 @@ authors = ["Philip Poloczek <phil.czek@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "A tool to search files"
 readme = "README.md"
-homepage = "https://github.com/you/grrs"
-repository = "https://github.com/you/grrs"
+homepage = "https://github.com/peetzweg/depon"
+repository = "https://github.com/peetzweg/depon"
 keywords = ["cli", "observe", "dependency"]
 categories = ["command-line-utilities"]
 
