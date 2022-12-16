@@ -1,0 +1,20 @@
+[package]
+name = "depon"
+version = "0.1.0"
+edition = "2021"
+authors = ["Philip Poloczek <phil.czek@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "observe", "dependency"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.29", features = ["derive"] }
+rayon = "1.6.1"
+serde = { version = "1.0.151" }
+serde_yaml = "0.9.14"
