@@ -1,10 +1,10 @@
 [package]
 name = "depon"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Philip Poloczek <phil.czek@gmail.com>"]
 license = "MIT OR Apache-2.0"
-description = "A tool to search files"
+description = "Execute subsequent command only if given dependencies changed"
 readme = "README.md"
 homepage = "https://github.com/peetzweg/depon"
 repository = "https://github.com/peetzweg/depon"
